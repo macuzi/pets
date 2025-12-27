@@ -9,11 +9,6 @@ A RESTful API for a pet store application.
    npm install
    ```
 
-2. Copy `.env.example` to `.env` and update the values:
-   ```bash
-   cp .env.example .env
-   ```
-
 3. Run Prisma migrations:
    ```bash
    npx prisma migrate dev
@@ -29,8 +24,3 @@ A RESTful API for a pet store application.
    npm start
    ```
 
-## Environment Variables
-
-- `PORT` - Server port (default: 3000)
-- `DATABASE_URL` - PostgreSQL connection string
-- `JWT_SECRET` - Secret key for JWT token generation
