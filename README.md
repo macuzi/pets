@@ -175,3 +175,11 @@ process.env.PORT          // Railway assigns this
    - Converts JavaScript to SQL INSERT
    - Executes query
    - Returns the created pet object
+   - 
+
+## Bruno (Great for sampling requests while developing)
+
+<img width="1512" height="945" alt="Screenshot 2025-12-30 at 5 51 34 PM" src="https://github.com/user-attachments/assets/4566acac-3107-44da-91e5-12cca6b5002e" />
+
+
+
