@@ -157,8 +157,8 @@ process.env.PORT          // Railway assigns this
 2. Request → Railway → Express app
 
 3. Middleware chain runs:
-   - CORS allows it
-   - express.json() parses body
+   - CORS 
+   - express.json() for body parsing
    - authMiddleware validates JWT token
 
 4. Route handler executes:
@@ -175,9 +175,9 @@ process.env.PORT          // Railway assigns this
    - Converts JavaScript to SQL INSERT
    - Executes query
    - Returns the created pet object
-   - 
+     
 
-## Bruno (Great for sampling requests while developing)
+## Bruno 
 
 <img width="1512" height="945" alt="Screenshot 2025-12-30 at 5 51 34 PM" src="https://github.com/user-attachments/assets/4566acac-3107-44da-91e5-12cca6b5002e" />
 
