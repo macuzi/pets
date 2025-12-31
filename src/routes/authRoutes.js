@@ -77,6 +77,11 @@ router.post('/register', async (req, res) => {
       data: {
         user,
         token,
+        apiPlaygroundInputs: {
+          header: {
+            Authorization: `Bearer ${token}`,
+          },
+        },
       },
     });
   } catch (error) {
@@ -155,6 +160,11 @@ router.post('/login', async (req, res) => {
           createdAt: user.createdAt,
         },
         token,
+        apiPlaygroundInputs: {
+          header: {
+            Authorization: `Bearer ${token}`,
+          },
+        },
       },
     });
   } catch (error) {
