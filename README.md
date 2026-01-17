@@ -1,4 +1,4 @@
-# Pets 
+# Summary
 
 I thought it would be useful to document how all of the pieces come together. Even though this is relatively striaghtforward, there are some moving parts so just wanted to make sure you're set up for success. 
 
